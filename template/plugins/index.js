@@ -1,8 +1,8 @@
 const prompts = require('prompts');
-const printSuccessPlugin = require('./printSuccess');
+const successPlugin = require('./success');
 
 // List of plugin to apply (ordered)
-const plugins = [printSuccessPlugin];
+const plugins = [successPlugin];
 
 /**
  * Apply a plugin
