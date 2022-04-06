@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocumentation=self.webpackChunkdocumentation||[]).push([[535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"React Native Boilerplate v0.0.1","permalink":"/react-native-boilerplate/blog/2020/04/19/React-Native-Boilerplate-3.0.0"}]}')}}]);

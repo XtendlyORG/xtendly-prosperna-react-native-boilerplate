@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://KDEV.github.io/react-native-boilerplate/blog</id>
+    <title>React Native Boilerplate Blog</title>
+    <updated>2020-04-19T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://KDEV.github.io/react-native-boilerplate/blog"/>
+    <subtitle>React Native Boilerplate Blog</subtitle>
+    <icon>https://KDEV.github.io/react-native-boilerplate/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[React Native Boilerplate v0.0.1]]></title>
+        <id>/2020/04/19/React-Native-Boilerplate-3.0.0</id>
+        <link href="https://KDEV.github.io/react-native-boilerplate/blog/2020/04/19/React-Native-Boilerplate-3.0.0"/>
+        <updated>2020-04-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[What's in the box? 📦]]></summary>
+        <content type="html"><![CDATA[<p>Welcome aboard! 🛥️</p><p>As we have active users that uses this boilerplate, we will try to improve communication about updates
+we&#x27;re releasing. It&#x27;s important for us to give you new reasons to try this boilerplate out!
+We would love to have new ideas to make it even more convenient!</p><p>To do so, we will post a changelog every major updates. Unlike the changelog in the releases tab, we
+will here provide more details and maybe some examples.</p><p>In this first post, we will present the current state of this boilerplate.</p><h2>Light 🪶 Simple 👌 and Scalable 📏</h2><p>This boilerplate is the core of every react-native applications we develop at <a href="https://xtendly.com/">Xtendly</a> and <a href="https://prosperna.com/">Prosperna</a>.
+This means that we are the first users! If an issue appear we are the first affected 🥺, that&#x27;s why this project is actively maintained!</p><p>The main idea behind this boilerplate is to have just the necessary and well-known stuff to have a very
+&quot;<em>easy to use</em>&quot; boilerplate for little and big real world apps.</p><p>We don&#x27;t include components libraries, we don&#x27;t depend on third-party libraries (like Firebase for example).
+It&#x27;s just a good template project that is build on top of all the accumulated experience of our mobile teams.
+It also provides a solid architecture that facilitates separation of concerns between the UI, the state management
+and the business logic.
+Like that, everyone can add its own touch! 🖌️</p><p>🚨 Every decision about the technical stack are made regarding our preferences (every library has his
+pros and cons).</p><h2>Easy to install 😎</h2><p>Installation has been facilitated since the v2.0.0, thanks to the use of the react-native-cli and
+<a href="https://github.com/react-native-community/cli/blob/master/docs/init.md#creating-custom-template">custom template</a>.
+To run this boilerplate, the only commands you need are</p><pre><code>npx react-native init AppName --template https://github.com/JericoK/xtendly-prosperna-react-native-boilerplate
+yarn start
+yarn ios
+yarn android
+</code></pre><p>That&#x27;s this simple! 🚀</p><h2>Why this boilerplate? 🐙</h2><p>Before starting this project, we looked for already existing boilerplates.
+We&#x27;ve found some, but while many were (and are always) awesome, we did not find what we were
+looking for: a <strong>light, scalable, and flexible boilerplate with a great separation of concerns</strong>.</p><p>One of the most popular was
+<a href="https://github.com/mcnamee/react-native-starter-kit">Matt Mcnamee&#x27;s React Native Starter Kit</a>,
+which unfortunately missed Redux middleware and React Navigation.</p><p>Digging deeper in the react-native boilerplates (ignoring unmaintained projects),
+many popular boilerplates were too opinionated: they
+included 3rd party services or very strong architecture choices
+that we were not comfortable with.
+To name a few:</p><ul><li><a href="https://github.com/bartonhammond/snowflake">Snowflake</a> ran with a Hapi Server running on Redhat OpenShift,</li><li><a href="https://github.com/sysgears/apollo-universal-starter-kit">Apollo&#x27;s StarterKit</a> is based on GraphQL using Apollo,</li><li><a href="https://github.com/spencercarli/react-native-meteor-boilerplate">Meteor Boilerplate</a> is based on Meteor.</li></ul><p>Finally, some did not contain the architecture we were looking for (the separation of concerns),
+for example <a href="https://github.com/react-everywhere/re-start">re-start</a>.</p><p>One interesting exception was
+<a href="https://github.com/infinitered/ignite-andross">Ignite IR Boilerplate &quot;Andross&quot;</a>, but after
+consideration we decided not to use it because of the large amount of
+unnecessary code/components it provided out of the box.</p><p>In 2021, some react-native boilerplates have changed. Let&#x27;s see what are
+the differences:</p><table><thead><tr><th align="left">Boilerplate</th><th align="left">Difference from our</th></tr></thead><tbody><tr><td align="left">mcnamee/react-native-starter-kit</td><td align="left"><ul><li>No React Navigation (react-native-router-flux instead),</li><li>No Typescript support,</li><li>Don&#x27;t use the react-native-cli to init</li></ul></td></tr><tr><td align="left">bartonhammond/snowflake</td><td align="left">Seems not maintained anymore (last release was in 2017) 💤</td></tr><tr><td align="left">sysgears/apollo-universal-starter-kit</td><td align="left"><ul><li>Is based on GraphQL using Apollo,</li><li>Don&#x27;t use the react-native-cli to init</li></ul></td></tr><tr><td align="left">spencercarli/react-native-meteor-boilerplate</td><td align="left">Seems not maintained (no release, last commit was in 2018) 💤</td></tr><tr><td align="left">react-everywhere/re-start</td><td align="left">Seems not maintained (last release was in 2017) 💤</td></tr><tr><td align="left">infinitered/ignite</td><td align="left"><ul><li>Specific folders for ignite-cli and boilerplate items,</li><li>MobX instead of Redux,</li><li>Expo ready,</li><li>Reactotron (ignite product) ready,</li><li>Typescript only</li></ul></td></tr></tbody></table><p>So there is no reason to hesitate : come 🧲, test 🧪 and leave a star ⭐</p><p>Thanks for reading, See you for the next release. 🏷️</p>]]></content>
+        <author>
+            <name>JericoK</name>
+            <uri>https://github.com/JericoK</uri>
+        </author>
+    </entry>
+</feed>
