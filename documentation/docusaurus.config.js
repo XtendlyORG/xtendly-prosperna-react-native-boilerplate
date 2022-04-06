@@ -3,8 +3,8 @@ module.exports = {
   title: "React Native Boilerplate",
   tagline:
     "Ready to use react native architecture tailored for Xtendly & Prosperna mobile development",
-  url: "https://KDEV.github.io",
-  baseUrl: "/react-native-boilerplate/",
+  url: "https://jericok.github.io",
+  baseUrl: "/xtendly-prosperna-react-native-boilerplate/",
   onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.png",
