@@ -1,0 +1,41 @@
+/* stylelint-disable docusaurus/copyright-header */
+
+.qualities {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.qualitySvg {
+  height: 200px;
+  width: 200px;
+}
+
+.dependencies {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+  justify-items: center;
+  margin-bottom: 50px;
+}
+
+.dependencySvg {
+  height: 120px;
+  width: 300px;
+}
+
+@media screen and (max-width: 966px) {
+  .dependencySvg {
+    height: 70px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .dependencySvg {
+    height: 50px;
+    width: 130px;
+  }
+}
