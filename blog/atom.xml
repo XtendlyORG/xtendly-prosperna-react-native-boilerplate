@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://KDEV.github.io/react-native-boilerplate/blog</id>
+    <id>https://jericok.github.io/xtendly-prosperna-react-native-boilerplate/blog</id>
     <title>React Native Boilerplate Blog</title>
     <updated>2020-04-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://KDEV.github.io/react-native-boilerplate/blog"/>
+    <link rel="alternate" href="https://jericok.github.io/xtendly-prosperna-react-native-boilerplate/blog"/>
     <subtitle>React Native Boilerplate Blog</subtitle>
-    <icon>https://KDEV.github.io/react-native-boilerplate/img/favicon.png</icon>
+    <icon>https://jericok.github.io/xtendly-prosperna-react-native-boilerplate/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[React Native Boilerplate v0.0.1]]></title>
         <id>/2020/04/19/React-Native-Boilerplate-3.0.0</id>
-        <link href="https://KDEV.github.io/react-native-boilerplate/blog/2020/04/19/React-Native-Boilerplate-3.0.0"/>
+        <link href="https://jericok.github.io/xtendly-prosperna-react-native-boilerplate/blog/2020/04/19/React-Native-Boilerplate-3.0.0"/>
         <updated>2020-04-19T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[What's in the box? 📦]]></summary>
         <content type="html"><![CDATA[<p>Welcome aboard! 🛥️</p><p>As we have active users that uses this boilerplate, we will try to improve communication about updates

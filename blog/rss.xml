@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>React Native Boilerplate Blog</title>
-        <link>https://KDEV.github.io/react-native-boilerplate/blog</link>
+        <link>https://jericok.github.io/xtendly-prosperna-react-native-boilerplate/blog</link>
         <description>React Native Boilerplate Blog</description>
         <lastBuildDate>Sun, 19 Apr 2020 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[React Native Boilerplate v0.0.1]]></title>
-            <link>https://KDEV.github.io/react-native-boilerplate/blog/2020/04/19/React-Native-Boilerplate-3.0.0</link>
+            <link>https://jericok.github.io/xtendly-prosperna-react-native-boilerplate/blog/2020/04/19/React-Native-Boilerplate-3.0.0</link>
             <guid>/2020/04/19/React-Native-Boilerplate-3.0.0</guid>
             <pubDate>Sun, 19 Apr 2020 00:00:00 GMT</pubDate>
             <description><![CDATA[What's in the box? 📦]]></description>
