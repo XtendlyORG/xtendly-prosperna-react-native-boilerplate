@@ -13,6 +13,10 @@ The boilerplate provides **an optimized architecture for building solid cross-pl
 If you love this boilerplate, give us a star, you will be a ray of sunshine in our lives :)
 ```
 
+## Project Status :fire:
+
+Boilerplate is currently in the development process
+
 ## Requirements
 
 Node 12 or greater is required. Development for iOS requires a Mac and Xcode 10 or up, and will target iOS 11 and up.
