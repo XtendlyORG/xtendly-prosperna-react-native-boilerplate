@@ -1,14 +1,6 @@
 import { combineReducers } from 'redux'
-import {
-  authReducer,
-  ordersReducer,
-  notificationsReducer,
-  dashboardReducer,
-} from './slices'
+import { authenticationReducer } from './slices'
 
 export default combineReducers({
-  auth: authReducer,
-  orders: ordersReducer,
-  notifications: notificationsReducer,
-  dashboard: dashboardReducer,
+  authentication: authenticationReducer,
 })

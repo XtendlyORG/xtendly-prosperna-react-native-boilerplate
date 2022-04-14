@@ -51,7 +51,8 @@
       "@navigation": ["./src/navigation"],
       "@redux": ["./src/redux"],
       "@screens": ["./src/screens"],
-      "@services": ["./src/services"]
+      "@services": ["./src/services"],
+      "@types": ["./src/types"]
     }, // "rootDirs": [],                        /* List of root folders whose combined content represents the structure of the project at runtime. */
     // "typeRoots": [],                       /* List of folders to include type definitions from. */
     // "types": [],                           /* Type declaration files to be included in compilation. */

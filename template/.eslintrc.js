@@ -13,10 +13,11 @@ module.exports = {
         semi: ['error', 'never'],
         'object-curly-spacing': ['error', 'always'],
         'array-bracket-spacing': ['error', 'never'],
-        'react/require-default-props': ['error'],
+        'react/require-default-props': ['off'],
         'react/default-props-match-prop-types': ['error'],
         'react/sort-prop-types': ['error'],
+        'types.d.ts(59, 5)': 'off',
       },
     },
   ],
-};
+}

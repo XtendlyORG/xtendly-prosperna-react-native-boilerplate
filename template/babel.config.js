@@ -1,5 +1,5 @@
 module.exports = api => {
-  api.cache(true);
+  api.cache(true)
 
   return {
     presets: ['module:metro-react-native-babel-preset'],
@@ -23,10 +23,11 @@ module.exports = api => {
             '@redux': './src/redux',
             '@screens': './src/screens',
             '@services': './src/services',
+            '@types': './src/types',
           },
         },
       ],
       'react-native-reanimated/plugin',
     ],
-  };
-};
+  }
+}

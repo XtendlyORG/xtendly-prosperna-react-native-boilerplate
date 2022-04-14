@@ -1,28 +1,49 @@
-import { StyleSheet, TextStyle, Platform } from 'react-native'
+import { StyleSheet, TextStyle } from 'react-native'
+import { Colors } from '../themes'
+
+export const fontWeight100: TextStyle = {
+  fontFamily: 'Poppins-Thin',
+  color: Colors.BLACK,
+}
+
+export const fontWeight200: TextStyle = {
+  fontFamily: 'Poppins-ExtraLight',
+  color: Colors.BLACK,
+}
+
+export const fontWeight300: TextStyle = {
+  fontFamily: 'Poppins-Light',
+  color: Colors.BLACK,
+}
 
 export const fontWeight400: TextStyle = {
-  ...(Platform.OS === 'ios' ? { fontWeight: '400' } : {}),
-  fontFamily: Platform.OS === 'ios' ? 'Montserrat' : 'montserrat_medium',
+  fontFamily: 'Poppins-Regular',
+  color: Colors.BLACK,
 }
 
 export const fontWeight500: TextStyle = {
-  ...(Platform.OS === 'ios' ? { fontWeight: '500' } : {}),
-  fontFamily: Platform.OS === 'ios' ? 'Montserrat' : 'montserrat_semibold',
+  fontFamily: 'Poppins-Medium',
+  color: Colors.BLACK,
 }
 
 export const fontWeight600: TextStyle = {
-  ...(Platform.OS === 'ios' ? { fontWeight: '600' } : {}),
-  fontFamily: Platform.OS === 'ios' ? 'Montserrat' : 'montserrat_bold',
+  fontFamily: 'Poppins-SemiBold',
+  color: Colors.BLACK,
 }
 
 export const fontWeight700: TextStyle = {
-  ...(Platform.OS === 'ios' ? { fontWeight: '700' } : {}),
-  fontFamily: Platform.OS === 'ios' ? 'Montserrat' : 'montserrat_bold',
+  fontFamily: 'Poppins-Bold',
+  color: Colors.BLACK,
 }
 
 export const fontWeight800: TextStyle = {
-  ...(Platform.OS === 'ios' ? { fontWeight: '800' } : {}),
-  fontFamily: Platform.OS === 'ios' ? 'Montserrat' : 'montserrat_extrabold',
+  fontFamily: 'Poppins-ExtraBold',
+  color: Colors.BLACK,
+}
+
+export const fontWeight900: TextStyle = {
+  fontFamily: 'Poppins-Black',
+  color: Colors.BLACK,
 }
 
 export const underline: TextStyle = {
@@ -34,11 +55,15 @@ export const transformToUppercase: TextStyle = {
 }
 
 export const TextStyles = StyleSheet.create({
+  fontWeight100,
+  fontWeight200,
+  fontWeight300,
+  fontWeight400,
   fontWeight500,
   fontWeight600,
   fontWeight700,
   fontWeight800,
-  fontWeight400,
+  fontWeight900,
   transformToUppercase,
   underline,
 })
