@@ -1,0 +1,58 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/xtendly-prosperna-react-native-boilerplate/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/xtendly-prosperna-react-native-boilerplate/docs",
+          "mainDocId": "Introduction/1_1_RNBoilerplate",
+          "docs": [
+            {
+              "id": "Getting Started/2_1_Installation",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/Installation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Getting Started/2_2_Configuration",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/Configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Guides/3_2_Navigation",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/Navigation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Guides/3_3_Components",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/Components",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Guides/3_4_StateManagement",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/StateManagement",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Guides/3_6_UsingFlipper",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/UsingFlipper",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Guides/BetaBuild",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/BetaBuild",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "Introduction/1_1_RNBoilerplate",
+              "path": "/xtendly-prosperna-react-native-boilerplate/docs/Introduction",
+              "sidebar": "tutorialSidebar"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

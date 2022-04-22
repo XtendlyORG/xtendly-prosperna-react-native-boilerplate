@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Guides/BetaBuild",
+  "id": "Guides/BetaBuild",
+  "title": "Beta build 🧪",
+  "description": "🚧 It's a Work In Progress section 🚧",
+  "source": "@site/docs/3_Guides/BetaBuild.md",
+  "sourceDirName": "3_Guides",
+  "slug": "/BetaBuild",
+  "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/BetaBuild",
+  "editUrl": "https://github.com/thecodingmachine/react-native-boilerplate/edit/master/website-documentation/docs/docs/3_Guides/BetaBuild.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/BetaBuild",
+    "title": "Beta build 🧪"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Using Flipper 🐛",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/UsingFlipper"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guides/3_3_Components",
+  "id": "Guides/3_3_Components",
+  "title": "Component Patterns 🧩",
+  "description": "Learn To Create Reusable Presentational Components In React Native & More",
+  "source": "@site/docs/3_Guides/3_3_Components.md",
+  "sourceDirName": "3_Guides",
+  "slug": "/Components",
+  "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Components",
+  "editUrl": "https://github.com/thecodingmachine/react-native-boilerplate/edit/master/website-documentation/docs/docs/3_Guides/3_3_Components.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/Components",
+    "title": "Component Patterns 🧩"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Navigation 📱",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Navigation"
+  },
+  "next": {
+    "title": "State Management 🗃️",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/StateManagement"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Getting Started/2_2_Configuration",
+  "id": "Getting Started/2_2_Configuration",
+  "title": "Configuration",
+  "description": "Change the appicon",
+  "source": "@site/docs/2_Getting Started/2_2_Configuration.md",
+  "sourceDirName": "2_Getting Started",
+  "slug": "/Configuration",
+  "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Configuration",
+  "editUrl": "https://github.com/thecodingmachine/react-native-boilerplate/edit/master/website-documentation/docs/docs/2_Getting Started/2_2_Configuration.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/Configuration",
+    "title": "Configuration"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation 💿",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Installation"
+  },
+  "next": {
+    "title": "Navigation 📱",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Navigation"
+  }
+}

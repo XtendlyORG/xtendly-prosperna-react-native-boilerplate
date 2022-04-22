@@ -1,0 +1,22 @@
+{
+  "unversionedId": "Introduction/1_1_RNBoilerplate",
+  "id": "Introduction/1_1_RNBoilerplate",
+  "title": "React Native Boilerplate 🐙",
+  "description": "-->",
+  "source": "@site/docs/1_Introduction/1_1_RNBoilerplate.md",
+  "sourceDirName": "1_Introduction",
+  "slug": "/Introduction",
+  "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Introduction",
+  "editUrl": "https://github.com/thecodingmachine/react-native-boilerplate/edit/master/website-documentation/docs/docs/1_Introduction/1_1_RNBoilerplate.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/Introduction",
+    "title": "React Native Boilerplate 🐙"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Installation 💿",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Installation"
+  }
+}

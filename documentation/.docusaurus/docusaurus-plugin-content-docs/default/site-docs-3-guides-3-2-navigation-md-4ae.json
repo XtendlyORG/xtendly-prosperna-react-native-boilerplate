@@ -1,0 +1,26 @@
+{
+  "unversionedId": "Guides/3_2_Navigation",
+  "id": "Guides/3_2_Navigation",
+  "title": "Navigation 📱",
+  "description": "An easy way to handle React Navigation",
+  "source": "@site/docs/3_Guides/3_2_Navigation.md",
+  "sourceDirName": "3_Guides",
+  "slug": "/Navigation",
+  "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Navigation",
+  "editUrl": "https://github.com/thecodingmachine/react-native-boilerplate/edit/master/website-documentation/docs/docs/3_Guides/3_2_Navigation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "slug": "/Navigation",
+    "title": "Navigation 📱"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Configuration"
+  },
+  "next": {
+    "title": "Component Patterns 🧩",
+    "permalink": "/xtendly-prosperna-react-native-boilerplate/docs/Components"
+  }
+}

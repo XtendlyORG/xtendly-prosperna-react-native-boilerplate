@@ -1,0 +1,178 @@
+{
+  "/xtendly-prosperna-react-native-boilerplate/__docusaurus/debug-dc4": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/__docusaurus/debug/config-acd": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/__docusaurus/debug/content-528": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---xtendly-prosperna-react-native-boilerplate-docusaurus-debug-content-246-f1c"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/__docusaurus/debug/globalData-bc6": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/__docusaurus/debug/metadata-71c": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/__docusaurus/debug/registry-e59": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/__docusaurus/debug/routes-335": {
+    "component": "component---theme-debug-routes-946-699"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog-505": {
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-5-aa-ed9"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/2020/04/19/React-Native-Boilerplate-3.0.0-a67": {
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-blog-2020-04-19-react-native-boilerplate-3-0-07-c-9-8ae"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/archive-3ce": {
+    "component": "component---theme-blog-archive-page-9-e-4-1d8",
+    "archive": "archive---xtendly-prosperna-react-native-boilerplate-blog-archivedb-2-8d6"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags-1de": {
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "tags": "tags---xtendly-prosperna-react-native-boilerplate-blog-tags-160-f2f"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/boilerplate-c2a": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-boilerplate-9-c-3-c9b"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/javascript-b6c": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-javascriptddc-b47"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/kit-9b7": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-kit-59-c-55b"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/native-994": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-nativee-7-d-0e5"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/react-46e": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-react-049-87e"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/react-native-f00": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-react-native-4-e-9-742"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/starter-41c": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-starterda-1-141"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/starter-kit-d3d": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-starter-kit-818-738"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/blog/tags/typescript-494": {
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---xtendly-prosperna-react-native-boilerplate-blog-814-4a1",
+    "items": [
+      {
+        "content": "content---xtendly-prosperna-react-native-boilerplate-blogb-5-a-c81"
+      }
+    ],
+    "metadata": "metadata---xtendly-prosperna-react-native-boilerplate-blog-tags-typescript-395-67e"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs-b9d": {
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---xtendly-prosperna-react-native-boilerplate-docs-935-949"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/BetaBuild-f99": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-beta-build-52-f-7f4"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/Components-37f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-components-7-d-0-6a3"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/Configuration-5a3": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-configuration-4-d-7-9e8"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/Installation-d3a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-installationda-5-716"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/Introduction-f10": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-introduction-352-fab"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/Navigation-a3b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-navigation-4-ae-344"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/StateManagement-c1e": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-state-managementedf-a1a"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/docs/UsingFlipper-0f8": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---xtendly-prosperna-react-native-boilerplate-docs-using-flipperc-90-ec3"
+  },
+  "/xtendly-prosperna-react-native-boilerplate/-92d": {
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---xtendly-prosperna-react-native-boilerplate-5-e-9-a1e"
+  }
+}
