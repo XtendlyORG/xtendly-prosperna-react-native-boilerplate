@@ -22,28 +22,19 @@ with your appicons generated with [appicon](https://appicon.co/) for example.
 To change the appicon of the Android application, you need to replace all the content of
 
 ```
-src > android > app > src > res
+src > android > app > src > main > res
 ```
 
 with your appicons generated with [appicon](https://appicon.co/) for example.
 
 ---
 
-## Change the splash screen icon
+## Change default name
 
-### iOS 🍎
-
-You can use the same tool ([appicon](https://appicon.co/)) to generate image sets (@1x, @2x, @3x).
-Then you just have to replace : `Splash_icon@1x.png`, `Splash_icon@2x.png`, `Splash_icon@3x.png` with yours in :
+To change the name of the root file in src folder
 
 ```
-src > ios > *name_of_your_app* > Images.xcassets > SplashIcon.imageset
+src > AppName.tsx
 ```
 
-### Android 🤖
-
-You just have to replace the splash_icon.png located at :
-
-```
-src > android > app > src > res > drawable
-```
+Change AppName.tsx into the name of your app. Don't forget to change the name in the App.tsx file.

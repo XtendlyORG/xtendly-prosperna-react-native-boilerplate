@@ -3,9 +3,11 @@ slug: /Navigation
 title: Navigation 📱
 ---
 
-This boilerplate handle dark themes and theme overrides
+An easy way to handle React Navigation
 
 ---
+
+If you’ve worked with React Native for any amount of time you’ve likely been confused by how you navigate in your app (practices, packages, etc).
 
 ## Screen Stacks ❓
 

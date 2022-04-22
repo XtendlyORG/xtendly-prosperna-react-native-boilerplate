@@ -1,8 +1,13 @@
 import React from 'react'
-import { View, Text, StyleSheet, Image, TouchableOpacity } from 'react-native'
+import { View, Text, StyleSheet, Image, Platform } from 'react-native'
 import { Formik } from 'formik'
 import { batch } from 'react-redux'
-import { authenticationActions, useAppDispatch } from '@redux'
+import {
+  authenticationActions,
+  useAppDispatch,
+  navigationActions,
+} from '@redux'
+import { DASHSTACK, DASHBOARDSCREEN } from '@constants'
 
 import Toast from 'react-native-toast-message'
 import { Colors, Images, TextStyles, Button, Input } from '@core'
@@ -15,14 +20,21 @@ export const LoginScreen: React.FC = () => {
   const onLogin = ({ username, password }: Login) => {
     batch(async () => {
       const { payload }: any = await dispatch(
-        authenticationActions.loginSlice({ username, password }),
+        authenticationActions.loginThunk({ username, password }),
       )
-
       if (payload.status === 200) {
         Toast.show({
           type: 'success',
           text1: payload.title,
           text2: payload.message,
+        })
+        batch(() => {
+          dispatch(
+            navigationActions.resetStack({
+              stackName: DASHSTACK,
+              screenName: DASHBOARDSCREEN,
+            }),
+          )
         })
       } else {
         Toast.show({
@@ -39,8 +51,8 @@ export const LoginScreen: React.FC = () => {
       <Image style={styles.heroImg} source={Images.Login} />
       <Text style={[TextStyles.fontWeight800, styles.title]}>Login</Text>
       <Text style={[TextStyles.fontWeight300, styles.desc]}>
-        Sample login screen with state management and form management using
-        redux, redux toolkit, redux persist and formik. You can use admin as
+        Sample login with state management and form management using redux,
+        redux toolkit, redux persist and formik. You can use prosperna as
         username and password.
       </Text>
       <Formik
@@ -73,11 +85,6 @@ export const LoginScreen: React.FC = () => {
               error={errors.password}
               touched={touched.password}
             />
-            <TouchableOpacity>
-              <Text style={[TextStyles.fontWeight600, styles.forgot]}>
-                Forgot Password?
-              </Text>
-            </TouchableOpacity>
             <Button
               style={styles.button}
               onPress={handleSubmit}
@@ -95,13 +102,12 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: Colors.PRIMARY,
     padding: 25,
-    paddingTop: 50,
+    paddingTop: Platform.OS === 'ios' ? 50 : 10,
   },
   heroImg: {
     width: '100%',
     height: '40%',
     resizeMode: 'cover',
-    paddingRight: 30,
   },
   title: { fontSize: 30 },
   desc: {

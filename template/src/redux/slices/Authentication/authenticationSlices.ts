@@ -2,19 +2,17 @@ import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
 import { loginApi } from '@services'
 import { LoginResponse, Login, AuthState } from '@types'
 
-export const initialState = {
+const initialState = {
   loading: 'idle',
   token: '',
   loggedIn: false,
 } as AuthState
 
-const loginSlice = createAsyncThunk(
-  'Authentication/loginSlice',
+const loginThunk = createAsyncThunk(
+  'Authentication/loginThunk',
   async (body: Login, { rejectWithValue }) => {
     try {
-      const response: { data: LoginResponse; status: number } = await loginApi(
-        body,
-      )
+      const response: { data: LoginResponse } = await loginApi(body)
       return response.data
     } catch (err: any) {
       return rejectWithValue(err.response.data)
@@ -25,20 +23,26 @@ const loginSlice = createAsyncThunk(
 const { actions, reducer } = createSlice({
   name: 'authentication',
   initialState: initialState,
-  reducers: {},
+  reducers: {
+    logOut(state) {
+      state.loading = 'idle'
+      state.loggedIn = false
+      state.token = ''
+    },
+  },
   extraReducers: builder => {
     builder
-      .addCase(loginSlice.fulfilled, (state, action) => {
+      .addCase(loginThunk.fulfilled, (state, action) => {
         state.loading = 'succeeded'
         state.loggedIn = true
         state.token = action.payload.token || 'sampletoken'
       })
-      .addCase(loginSlice.rejected, state => {
+      .addCase(loginThunk.rejected, state => {
         state.loading = 'failed'
         state.loggedIn = false
         state.token = ''
       })
-      .addCase(loginSlice.pending, state => {
+      .addCase(loginThunk.pending, state => {
         state.loading = 'pending'
       })
   },
@@ -46,7 +50,7 @@ const { actions, reducer } = createSlice({
 
 export const authenticationActions = {
   ...actions,
-  loginSlice,
+  loginThunk,
 }
 
 export const authenticationReducer = reducer

@@ -17,6 +17,7 @@ module.exports = {
         'react/default-props-match-prop-types': ['error'],
         'react/sort-prop-types': ['error'],
         'types.d.ts(59, 5)': 'off',
+        'react-hooks/exhaustive-deps': 'off',
       },
     },
   ],

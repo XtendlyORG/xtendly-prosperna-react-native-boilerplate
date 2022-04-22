@@ -1,27 +1,21 @@
 import React from 'react'
 import { View, Image, Text, StyleSheet } from 'react-native'
-import { useNavigation, CommonActions } from '@react-navigation/native'
-import { useSelector } from 'react-redux'
-import { selectAuthentication } from '@redux'
+import { navigationActions, useAppDispatch } from '@redux'
 
 import { Colors, Images, TextStyles, Button } from '@core'
-import { AUTHSTACK } from '@constants'
+import { AUTHSTACK, LOGINSCREEN } from '@constants'
 
 export const WelcomeScreen: React.FC = () => {
-  const navigation = useNavigation()
-  const authentication = useSelector(selectAuthentication)
-  console.log('authentication', authentication)
+  const dispatch = useAppDispatch()
 
-  React.useEffect(() => {
-    if (authentication.loggedIn && authentication.token) {
-      navigation.dispatch(
-        CommonActions.reset({
-          index: 0,
-          routes: [{ name: AUTHSTACK }],
-        }),
-      )
-    }
-  }, [authentication, navigation])
+  const onGettingStarted = () => {
+    dispatch(
+      navigationActions.resetStack({
+        stackName: AUTHSTACK,
+        screenName: LOGINSCREEN,
+      }),
+    )
+  }
 
   return (
     <View style={styles.container}>
@@ -38,14 +32,7 @@ export const WelcomeScreen: React.FC = () => {
         <Image style={styles.xtendlyLogo} source={Images.XtendlyLogo} />
       </View>
       <Button
-        onPress={() =>
-          navigation.dispatch(
-            CommonActions.reset({
-              index: 0,
-              routes: [{ name: AUTHSTACK }],
-            }),
-          )
-        }
+        onPress={() => onGettingStarted()}
         label="Getting Started 🚀"
         topAuto={true}
       />

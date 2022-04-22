@@ -5,6 +5,7 @@ import {
   Pressable,
   PressableProps,
   StyleProp,
+  ActivityIndicator,
 } from 'react-native'
 import { TextStyles } from '../styles'
 import { Colors } from '../themes'
@@ -13,12 +14,13 @@ interface ButtonProp {
   label?: string
   style?: StyleProp<PressableProps>
   topAuto?: boolean
+  isLoading?: Loading
 }
 
 type ButtonProps = ButtonProp | PressableProps
 
 export const Button: React.FC<ButtonProps> = props => {
-  const { label, style, topAuto } = props as ButtonProp
+  const { label, style, topAuto, isLoading } = props as ButtonProp
   const Props = props as PressableProps
 
   return (
@@ -33,7 +35,11 @@ export const Button: React.FC<ButtonProps> = props => {
         style,
       ]}
     >
-      <Text style={[TextStyles.fontWeight600, styles.text]}>{label}</Text>
+      {isLoading === 'pending' ? (
+        <ActivityIndicator size="small" color={Colors.PRIMARY} />
+      ) : (
+        <Text style={[TextStyles.fontWeight600, styles.text]}>{label}</Text>
+      )}
     </Pressable>
   )
 }

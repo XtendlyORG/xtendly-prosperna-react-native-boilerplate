@@ -15,3 +15,13 @@ export interface LoginResponse {
   token?: string
   status: number
 }
+
+export interface Logout {
+  token: string
+}
+
+export interface LogoutResponse {
+  title: string
+  message: string
+  status: number
+}

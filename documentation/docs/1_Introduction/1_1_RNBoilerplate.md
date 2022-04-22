@@ -71,6 +71,7 @@ The boilerplate includes an example (displaying fake user data) from UI componen
 - `src/screens`: container components, i.e. the application's screens
 - `src/services`: application services, e.g. API clients
 - `src/utils`: reusable functions like filter arrays, filter objects and more!
+- `src/type`: reusable types for the entire app.
 
 ## Updates 🕐
 
